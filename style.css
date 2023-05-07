@@ -1,0 +1,167 @@
+/* N A V B A R */
+
+.applelogo{
+    height: 28px;
+    width: 100px;
+}
+
+
+
+/* S E C T I O N  1 */
+
+  .sec1 {
+    background: url("./images/w5.jpg") no-repeat;
+    background-size: cover;
+    height: 160vh;
+    background-position: top;
+  } 
+
+  .title1{
+    font-family: 'lato', cursive;
+    margin-top: 84px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 110px;
+  }
+
+  .btn-custom {
+    font-family: 'lato', cursive;
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+    border-radius: 25px;
+  }
+  
+  .btn-custom:hover {
+    font-family: 'lato', cursive;
+    font-size: 20px;
+    background-color: #7dfd71;
+    color: #000000;
+    border-radius: 25px;
+  }
+
+  .i1 {
+   width: 70%;
+   height: 85%;
+  }
+
+
+
+/* M E D I A   Q U E R Y   S E C T I O N  1 */
+
+ /* M O B I L E */
+
+@media (min-width: 10px) and (max-width: 324px) {
+
+  .title1{
+    font-size: 50px;
+  }
+
+  .i1 {
+    position: relative;
+    top: -38%;
+  }
+}  
+
+
+ /* M O B I L E   AND  T A B L E T S */
+
+@media (min-width: 325px) and (max-width: 767px) {
+
+  .sec1{
+    min-height: 580px;
+  }  
+
+  .title1{
+    font-size: 60px;
+    margin-top: 64px;
+  }
+
+  .btn-custom {
+    font-size: 20px;
+  }
+  
+  .btn-custom:hover {
+    font-size: 20px;
+  } 
+
+  .i1 {
+    position: relative;
+    top: -30%;
+    left: 0%;
+  }
+}   
+
+
+ /* T A B L E T S   AND   D E S K T O P S  1 */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .title1{
+    font-size: 57px;
+    margin-top: 80px;
+  }
+
+  .i1 {
+    width: 85%;
+    height: 80%;
+  }
+}
+
+
+/* T A B L E T S   AND   D E S K T O P S  2 */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .title1{
+    font-size: 75px;
+    margin-top: 80px;
+  }
+
+  .i1 {
+    width: 70%;
+    height: 85%;
+  }
+} 
+
+
+/* D E S K T O P S */
+
+@media (min-width: 1200px) {
+
+  .i1 {
+    position: relative;
+    top: 3%;
+    left: 0%;
+  }
+} 
+
+
+
+
+/* S E C T I O N  2 */
+
+.title2{
+  font-family: 'lato', cursive;
+  font-size: 7vw;
+}
+
+.para2{
+  font-size: 18px;
+}
+
+.pess{
+  height: 250px;
+  width: 250px;
+}
+
+
+/* M E D I A   Q U E R Y   S E C T I O N  2 */
+
+@media (min-width: 10px) and (max-width: 575px) {
+
+  .title2{
+    font-size: 12vw;
+  }
+}    
